@@ -10,6 +10,7 @@ This repo contains:
 - An index.html file
 - An assets folder with svg icons
 - This readme file
+- 
 You are encouraged to fork this repo or create a new one if that is more practical.
 
 ## Instructions
