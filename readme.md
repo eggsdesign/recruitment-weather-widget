@@ -2,9 +2,9 @@
 
 In this exercise you will leverage some APIs in order to fetch and present data in a meaningful way.
 
-There are many useful libraries and frameworks out there, and should you choose to use any then please consider why you chose them and how they contribute in your solution.
+There are many useful libraries and frameworks out there, and should you choose to use any then please consider why you chose them and how they contribute to your solution.
 
-Please put empahsis on good application- and code structure, as well as proper object-oriented programming principles and best practices.
+Please put emphasis on good application- and code structure, as well as proper object-oriented programming principles and best practices.
 
 Unit testing is important, as well as deciding what to test. Tests are not a requirement for this assignment, but feel free to those that you find make sense.
 
