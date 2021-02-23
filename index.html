@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Widget</title>
+</head>
+<body>
+  <h1>Weather Widget</h1>
+  <label for="location-search">
+    Search for location
+    <input type="text" id="location-search" oninput="search()">
+  </label>
+
+  <script>
+    const username = "eggstech";
+    const inputEl = document.getElementById("location-search")
+    let locations = [];
+    
+    async function search(e) {
+      const location = inputEl.value;
+      const url = `http://api.geonames.org/searchJSON?formatted=true&name_startsWith=${location}&countryBias=no&maxRows=10&lang=en&username=${username}&orderBy=population&cities=cities500`
+      
+      try {
+        const response = await fetch(url);
+
+        if (response.ok) {
+          locations = await response.json();
+
+        } else {
+          throw new Error(response.statusText)
+        }
+
+      } catch(err) {
+        throw new Error(err);
+      }
+
+    }
+  </script>
+</body>
+</html>
