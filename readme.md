@@ -16,7 +16,7 @@ This repo contains:
 - An assets folder with svg icons
 - This readme file
 
-You are encouraged to fork this repo or create a new one if that is more practical.
+You are encouraged to clone this repo or create a new one if that is more practical.
 
 
 ## Instructions
