@@ -6,14 +6,11 @@ You are completely free to chose any libraries and/or frameworks of preference (
 
 ## About this repo
 
-This repo includes only this readme file, an index.html and an assets folder containing icons.
-You are encouraged to fork this repo or create a new one if that is more practical.
-
 This repo contains:
 - An index.html file
 - An assets folder with svg icons
 - This readme file
-
+You are encouraged to fork this repo or create a new one if that is more practical.
 
 ## Instructions
 
