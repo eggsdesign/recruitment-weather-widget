@@ -70,6 +70,7 @@ Their filenames match the values you’ll get in the object.data.next_1_hours.su
 Should you have the time and inclination, here are a few bonus challenges:
 - Ensure that the browser remembers the chosen location on reload
 - Allow the user to store one or more locations as their favorite, and allow for easy switching between them
+- Use Typescript
 
 Please note these are not a requirement of the exercise.
 
